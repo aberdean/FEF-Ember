@@ -1,0 +1,14 @@
+body {
+	font-size: 1.2em;
+}
+
+h4 {
+	font-size: 1.4em;
+}
+
+ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	list-style-type: none;
+}
