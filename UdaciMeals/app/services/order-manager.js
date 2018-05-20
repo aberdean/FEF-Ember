@@ -14,7 +14,7 @@ export default Service.extend({
 		this.set('selectedDay', day);
 	},
 	chooseMenuOption(mealCategory, menuItemName) {
-		this.set('menuSelection.' + this.get('selectedDay') + 
+		this.set('menuSelection.' + this.get('selectedDay') + '.' +
 			mealCategory, menuItemName);
 	},
 	removeMenuOption(day, mealCategory) {
